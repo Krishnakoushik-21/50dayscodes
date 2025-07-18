@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="myInput">
+    <p id="Hello"></p>
+    <script src="hello.js"></script>
+    <script>
+        document.getElementById("myInput").addEventListener("input",function(){
+            document.getElementById("Hello").innerHTML=this.value;
+        });
+        document.getElementById("Hello").addEventListener("dbclick",function(){
+            document.style.color="blue";
+        });
+        document.getElementById("Hello").addEventListener("dbclick",function(){
+            alert("double cilck deytected!")
+        });
+        document.getElementById("myInput").addEventListener("focus",function(){
+            this.style.backgroundcolor="blue";
+        });
+        document.getElementById("myInput").addEventListener("blur",function(){
+            this.style.backgroundcolor="green";
+        });
+    </script>
+     <div style="display:flex; flex-direction: row; gap: 50px; padding-left: 40%; padding-top: 40%;">
+<button id="minus">-</button>
+<p id="zero">0</p>
+<button id="plus">+</button>  
+<script>
+    const minus = document.getElementById("minus");
+    const zero = document.getElementById("zero");
+    const plus = document.getElementById("plus");
+    let count = 0;
+    plus.addEventListener("click",function(){
+        count++;
+        zero.innerHTML = count;
+    });
+    minus.addEventListener("click",function(){
+        count--;
+        zero.innerHTML = count;
+    })
+</script>  
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Para1</p>
+    <p>para2</p>
+    <script src="forloop.js"></script>
+    <script>
+        function paras() {
+        const paras=document.getElementsByTagName("p");
+        paras[0].innerHTML="Changed!";
+        }
+    </script>
+
+    <button onclick="paras()">click</button>
+    <p class="intro">Hello</p>
+    <script>
+        const element=document.querySelector(".intro");
+        element.style.fontWeight="bold";
+        element.style.color="blue";
+     </script>
+<p class="Note">Note1</p>
+<p class="Note">Note2</p>
+<script>
+    const allparaQuery=document.querySelectorAll(".Note")
+    for(let i=0; i<allparaQuery.length; i++){
+        allparaQuery[i].style.backgroundColor="lightblue";
+    }
+</script>
+</body>
+</html>
