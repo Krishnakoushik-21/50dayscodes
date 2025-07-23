@@ -1,0 +1,127 @@
+.weather{
+    text-align: center;
+}
+.form{
+width: 250px;
+height: 250px;
+margin-top: 30%;    
+margin-left: 30%;
+}
+.body{
+    background-image:url(field-with-clouds.jpg);
+}
+body{
+    background-image: url("weatherbackground.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.weather{
+    text-align: center;
+}
+.forms{
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding:10px;
+    font-size: 20px;
+    align-items: center;
+    
+
+}
+.paragraph{body{
+    background-image: url("weatherbackground.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.weather{
+    text-align: center;
+}
+.forms{
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding:10px;
+    font-size: 20px;
+    align-items: center;
+    
+
+}
+.paragraph{
+    color:black;
+}
+.container{
+    margin-top: 20px;
+    padding: 20px;
+    background-color:white;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+.div{
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding:20px;
+    flex-wrap: wrap;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.fero{
+    color:black;
+}
+.forme{
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.forme:hover{
+    background-color: white;
+    color:black;
+}
+    color:black;
+}
+.container{
+    margin-top: 20px;
+    padding: 20px;
+    background-color:white;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+.div{
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding:20px;
+    flex-wrap: wrap;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.fero{
+    color:black;
+}
+.forme{
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.forme:hover{
+    background-color: white;
+    color:black;
+}
